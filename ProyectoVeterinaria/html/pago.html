@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="/css/pago.css">
+</head>
+<body>
+  
+    <label for="check" class="abrir-menu">&#8801</label>
+<input type="checkbox" name="check" id="check">
+<header>
+    <div class="logo-botones-container">
+        <div class="logo-container">
+            <img src="/src/images/logo.png" alt="">
+        </div>
+
+        <div class="boton-container">
+            <a href="/html/login.html" class="boton">
+                <img src="/src/icons/iniciarSesion.png" alt="">
+                <p>Iniciar Sesion</p>
+            </a>
+            <a href="/html/registro.html" class="boton">
+                <img src="/src/icons/registrar.png" alt="">
+                <p>Registrarse</p>
+            </a>
+        </div>
+
+
+        <label for="check" class="cerrar-menu">&#10006</label> 
+
+    </div>
+
+    <nav class="menu-container">
+        
+            <a href="/html/index.html">Principal</a>
+            <a href="/html/tienda.html">Tienda</a>
+            <a href="/html/index.html">Solicitar Cita</a>
+            <a href="/html/sobre_nosotros.html">Nosotros</a>
+            <a href="/html/carrito.html">
+                <img src="/src/icons/carritoBlanco.png" alt="" class="carrito">
+            </a>
+        
+    </nav>
+
+</div>
+</header>
+
+<main class="main-container">
+    <section class="section-container">
+        <h2>Resumen de la Compra</h2>
+
+        <div class="resumen-container">
+
+        
+        <div class="resumen-productos-container">
+            <div class="imagen-producto">
+                <img src="/src/images/productosTienda/Sin-título-4.png" alt="">
+            </div>
+            <div class="detalles-producto">
+                <p>Pro Pack Ultimates + Quinoa Cookies</p>
+                <p>Cantidad: 1</p>
+            </div>
+        </div>
+        <div class="resumen-productos-container">
+            <div class="imagen-producto">
+                <img src="/src/images/productosTienda/Sin-título-4.png" alt="">
+            </div>
+            <div class="detalles-producto">
+                <p>Pro Pack Ultimates + Quinoa Cookies</p>
+                <p>Cantidad: 1</p>
+            </div>
+        </div>
+        <div class="resumen-productos-container">
+            <div class="imagen-producto">
+                <img src="/src/images/productosTienda/Sin-título-4.png" alt="">
+            </div>
+            <div class="detalles-producto">
+                <p>Pro Pack Ultimates + Quinoa Cookies</p>
+                <p>Cantidad: 1</p>
+            </div>
+        </div>
+
+        <div class="resumen-productos-container">
+            <div class="imagen-producto">
+                <img src="/src/images/productosTienda/Sin-título-4.png" alt="">
+            </div>
+            <div class="detalles-producto">
+                <p>Pro Pack Ultimates + Quinoa Cookies</p>
+                <p>Cantidad: 1</p>
+            </div>
+        </div>
+        <div class="resumen-productos-container">
+            <div class="imagen-producto">
+                <img src="/src/images/productosTienda/Sin-título-4.png" alt="">
+            </div>
+            <div class="detalles-producto">
+                <p>Pro Pack Ultimates + Quinoa Cookies</p>
+                <p>Cantidad: 1</p>
+            </div>
+        </div>
+        
+    </div>
+        <h2 id="subtotal">Subtotal (3 Productos): $ 120.000</h2>
+    </section>
+
+    <section class="section-container">
+        <h2>Metodo de Pago</h2>
+
+        <div class="metodos-container">
+
+        <div class="metodos-pago-container">
+            <div class="metodo">
+                <img src="/src/icons/tienda/tarjetaCredito.png" alt="">
+                <p>Tarjeta</p>
+            </div>
+            <div class="metodo">
+                <img src="/src/icons/tienda/efecty.svg" alt="">
+                <p>Efecty</p>
+            </div>
+        
+            <div class="metodo">
+                <img src="/src/icons/tienda/contraEntrega.png" alt="">
+                <p>Contraentrega</p>
+            </div>
+        </div>
+
+        <form class="info-metodo">
+            <div class="campo-numero-tarjeta">
+                <label for="numero-tarjeta" class="label-tarjeta">Numero de Tarjeta</label>
+                <div class="input-container">
+                    <input type="text" placeholder="1234 5678 9101 2345" id="numero-tarjeta">   
+                    <img src="/src/icons/tienda/card_11041038.png" alt="" class="icon">
+                    <img src="/src/icons/tienda/card_11041055.png" alt="" class="icon">
+                </div>
+            </div>
+
+            <div class="fecha-cvc-container">
+                <div class="campo-fecha-caducidad">
+                    <label for="fecha-caducidad" class="label-tarjeta">Fecha de Caducidad</label>
+                    <input type="text" placeholder="MM/AA" id="fecha-caducidad">
+                </div>
+    
+                <div class="campo-cvc">
+                    <label for="cvc" class="label-tarjeta">CVC</label>
+                    <input type="text" placeholder="000" id="cvc">
+                </div>
+            </div>
+        
+
+        </div>
+        <div class="boton-container1">
+            <input type="submit" value="Pagar" class="botonsito">       
+
+        </div>
+    </div>
+
+    </section>
+    
+    <section class="section-container">
+        <h2>Dirección</h2>
+        <div class="direccion-container">
+
+            <div class="direcciones-container">
+                <div class="direccion">
+                    <p>Calle 19 #17-06 Fonseca, La Guajira</p>
+                    <button class="btn-check">
+                        <img src="/src/icons/tienda/cuadroSeleccionado.png" alt="">
+                    </button>
+                    <button class="btn-editar">
+                        <img src="/src/icons/tienda/lapiz.png" alt="">
+                    </button>
+                    <button class="btn-borrar">
+                        <img src="/src/icons/tienda/papelera.png" alt="">
+                    </button>
+                </div>
+
+                <div class="direccion">
+                    <p>Calle 17 Sur #3  - 15 San Juan - Cesar </p>
+                    <button class="btn-check">
+                        <img src="/src/icons/tienda/cuadronSinSeleccionar.png" alt="">
+                    </button>
+                    <button class="btn-editar">
+                        <img src="/src/icons/tienda/lapiz.png" alt="">
+                    </button>
+                    <button class="btn-borrar">
+                        <img src="/src/icons/tienda/papelera.png" alt="">
+                    </button>
+                </div>
+
+                <div class="direccion">
+                    <p>Calle 19 #17-06 Fonseca, La Guajira</p>
+                    <button class="btn-check">
+                        <img src="/src/icons/tienda/cuadronSinSeleccionar.png" alt="">
+                    </button>
+                    <button class="btn-editar">
+                        <img src="/src/icons/tienda/lapiz.png" alt="">
+                    </button>
+                    <button class="btn-borrar">
+                        <img src="/src/icons/tienda/papelera.png" alt="">
+                    </button>
+                </div>
+
+                
+                <div class="direccion">
+                    <p>Calle 17 Sur #3  - 15 San Juan - Cesar </p>
+                    <button class="btn-check">
+                        <img src="/src/icons/tienda/cuadronSinSeleccionar.png" alt="">
+                    </button>
+                    <button class="btn-editar">
+                        <img src="/src/icons/tienda/lapiz.png" alt="">
+                    </button>
+                    <button class="btn-borrar">
+                        <img src="/src/icons/tienda/papelera.png" alt="">
+                    </button>
+                </div>
+             </div>
+             <input type="submit" value="Añadir Dirección" class="btn-negro">       
+
+         </div>
+
+    </section>
+
+    <section class="section-container">
+        <div class="perro-gato-container">
+
+        <h3>¡Tu compra no solo es para ti, también es para ellos! Ayuda a muchos animales con tu compra.</h3>
+        <div class="perro-gato">
+            <img src="/src/images/perroGatoTienda.png" alt="">
+        </div>
+    </div>
+
+    </section>
+
+</main>
+
+<footer>
+        
+    <div class="footer-conteiner">
+        
+        <div class="logo-footer">
+            <img src="/src/images/logoBordeBlanco.png" alt="">
+        </div>
+    
+        <div class="horario">
+            <h4>Horario</h4>
+            <p>Lunes - Viernes<br>07:45 - 09:00PM</p>
+            <p>Sábados - Domingos<br>08:30AM - 08:PM</p>
+        </div>
+
+        <div class="contactos">
+            <h4>Contactos</h4>
+            <div class="telefono-conteiner">
+                <img src="/src/icons/telefonoBlanco.png" alt="">
+                <p>3006045694</p>
+            </div>
+            <div class="correo-conteiner">
+                <img src="/src/icons/emailBlanco.png" alt="">
+                <p>vetandpets@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="redes-sociales">
+            <h4>Redes Sociales</h4>
+            <div class="redes">
+                <img src="/src/icons/facebook.png" alt="">
+                <img src="/src/icons/instagram.png" alt="">
+                <img src="/src/icons/X.png" alt="">
+                <img src="/src/icons/whatsapp.png" alt="">
+                <img src="/src/icons/youtube.png" alt="">
+            </div>
+        </div>
+
+        <div class="mapa">
+            <img src="/src/images/mapa.png" alt="">
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
